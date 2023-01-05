@@ -1,0 +1,44 @@
+@media screen and (min-width: 1280px) {
+    .wrap {
+        display: flex;
+    }
+
+    .section {
+        width: 74%;
+    }
+
+    .marpad {
+        margin: 0px 30px 60px;
+    }
+
+    .section-sidebar {
+        min-height: 900px;
+        width: 302.5px;
+        z-index: 102;
+        max-height: 100%;
+        background-color: #1f2326;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .marpad {
+        margin: 0px 0px 60px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .toggle-btn {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logonone {
+        display: none !important;
+    }
+}
